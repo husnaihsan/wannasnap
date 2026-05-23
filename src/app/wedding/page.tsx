@@ -156,7 +156,7 @@ function GalleryView({ event, photos, onRefresh, onUploadClick, onPhotoTap }: {
       {photos.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '60px 20px', color: '#bbb' }}>
           <div style={{ fontSize: 40, marginBottom: 12 }}>📷</div>
-          <p style={{ fontSize: 15 }}>No photos yet — be the first to share!</p>
+          <p style={{ fontSize: 15 }}>No photos yet, be the first to share!</p>
         </div>
       ) : (
         <div style={{ padding: '12px 12px 100px', columns: 2, gap: 8 }}>
