@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+build/
+dist/
+
+# environment variables (VERY IMPORTANT for Supabase)
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Supabase local CLI (if you're using it locally)
+.supabase/
+
+# coverage (if testing)
+coverage/
+
+# optional cache
+.vercel/
+.cache/
+
+dist/
+build/
