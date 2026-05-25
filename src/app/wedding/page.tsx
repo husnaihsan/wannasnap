@@ -102,7 +102,7 @@ export default function WeddingPage({ params }: { params: { slug: string } }) {
         type="file"
         accept="image/*"
         multiple
-        capture="environment"
+        //capture="environment"
         style={{ display: 'none' }}
         onChange={handleFileSelect}
       />
